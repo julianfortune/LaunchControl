@@ -304,7 +304,7 @@ public struct LaunchControl {
         return name
     }
 
-    static func getMIDIDestinationNames() -> [MIDIDeviceRef : String] {
+    public static func getMIDIDestinationNames() -> [MIDIDeviceRef : String] {
         var names = [MIDIEndpointRef : String]()
 
         let midiDeviceCount = MIDIGetNumberOfDestinations()
@@ -320,7 +320,7 @@ public struct LaunchControl {
         return names
     }
 
-    static func getMIDISourceNames() -> [MIDIDeviceRef : String] {
+    public static func getMIDISourceNames() -> [MIDIDeviceRef : String] {
         var names = [MIDIEndpointRef : String]()
 
         let midiDeviceCount = MIDIGetNumberOfDestinations()
