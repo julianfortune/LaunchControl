@@ -8,7 +8,7 @@ import CoreMIDI
 
 // Currently only supports the standard RGB launchpad.
 
-class LaunchControl {
+public struct LaunchControl {
 
     /// A color used with to illuminate the Launchpad buttons
     struct LaunchpadColor {
