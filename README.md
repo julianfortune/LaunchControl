@@ -1,3 +1,3 @@
 # LaunchControl
 
-A description of this package.
+A Swift package for communicating with the Novation Launchpad.
